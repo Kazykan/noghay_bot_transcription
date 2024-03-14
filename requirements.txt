@@ -1,0 +1,2 @@
+aiogram==3.4.1
+transliterate==1.10.2
