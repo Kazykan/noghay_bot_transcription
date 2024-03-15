@@ -8,8 +8,8 @@ class TurkishLanguagePack(TranslitLanguagePack):
     language_code = "turkish"
     language_name = "Turkish"
     mapping = (
-        "АБДЭEФГХИЫЖКЛМНОПРСШТУВЙЗабдэфгхиыжклмнопрсштувйзе",
-        "ABDEEFGHİIJKLMNOPRSŞTUVYZabdefghiıjklmnoprsştuvyze",
+        "АБДЭEФГХИЫЖКЛМНОПРСШТУВЙЗЮабдэфгхиыжклмнопрсштувйзею",
+        "ABDEEFGHİIJKLMNOPRSŞTUVYZÛabdefghiıjklmnoprsştuvyzeû",
     )
     pre_processor_mapping = {
         "Аь": "Ä",
@@ -24,6 +24,8 @@ class TurkishLanguagePack(TranslitLanguagePack):
         "нъ": "ñ",
         "оь": "ö",
         "уь": "ü",
+        "Я": "Ya",
+        "я": "ya",
     }
 
 
